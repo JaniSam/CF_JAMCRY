@@ -1,33 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <title>Grupo JAMCRY</title>
-</head>
-<body >
-    <nav class="navbar navbar-expand-sm bg-dark ">
-        <div class="container">
-            <a class="navbar-brand fw-bold " style="color: white;"> Grupo JAMCRY</a>
-        </div>
-    </nav>
-    <section class="container-fluid">
-        <div class="text-center">
-            <h1 class=" mt-5">Bienvenidos al Grupo JAMCRY</h2>
-            <p class="px-4 fs-3">Desarrollo de software y soluciones digitales para empresas.</p>
-        </div>
-        <div class="row">
-            <div class="col-12 col-lg-6">
-                <h2 class="text-center">Misión</h2>
-                <p class="fs-3">Brindar soluciones contables, financieras y tecnológicas innovadoras a pequeñas y medianas empresas, ayudándoles a optimizar la gestión de su patrimonio, mejorar su toma de decisiones y fortalecer su crecimiento sostenible, a través de un servicio profesional, confiable y accesible.</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <title>Grupo JAMCRY</title>
+    </head>
+    <body class="bg-light d-flex flex-column min-vh-100">
+        <!--Encabezado-->
+        <nav class="navbar navbar-expand-sm bg-dark">
+            <p class="fs-3 fw-bold ps-5" style="color: white;">
+                Grupo JAMCRY
+            </p>
+        </nav>
+        <!--Seccion de Bienvenida, Mision y Vision-->
+        <section class="container">
+            <div class="text-center">
+                <h1 class="mt-4">Bienvenidos al Grupo JAMCRY</h1>
+                <p class="fs-4">
+                   Desarrollo de software y soluciones digitales para empresas.
+                </p>
             </div>
-            <div class="col-12 col-lg-6 ">
-                <h2 class="text-center">Visión</h2>
-                <p class="fs-3">Ser una empresa líder en servicios contables y de asesoramiento financiero en Paraguay, reconocida por su compromiso con la excelencia, la ética y la innovación, contribuyendo al desarrollo de empresas sólidas y competitivas.</p>
+            <div class="row">
+                <div class="col-12 col-lg-6 mb-4">
+                    <div class="card shadow h-100">
+                        <div class="card-body">
+                            <h3 class="text-center">MISIÓN</h3>
+                            <p style="text-align: justify;">
+                                Brindar soluciones contables, financieras y tecnológicas innovadoras a pequeñas y medianas empresas, 
+                                ayudándoles a optimizar la gestión de su patrimonio, mejorar su toma de decisiones y fortalecer su crecimiento sostenible, 
+                                a través de un servicio profesional, confiable y accesible.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 mb-4">
+                    <div class="card shadow h-100">
+                        <div class="card-body">
+                            <h3 class="text-center">VISIÓN</h3>
+                            <p style="text-align: justify;">
+                                Ser una empresa líder en servicios contables y de asesoramiento financiero en Paraguay, 
+                                reconocida por su compromiso con la excelencia, la ética y la innovación, contribuyendo al desarrollo 
+                                de empresas sólidas y competitivas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
+        </section>
+
+        <!--Seccion de Servicios-->
+        <section class="container">
+            <h3 class="text-center">Nuestros Servivios</h3>
+            <div class="row text-center">
+                <div class="col-12 col-lg-4 mb-3">
+                    <div class="card shadow h-100">
+                        <div class="card body">
+                            <h4>Desarrollo Web</h4>
+                            <p class="fs-5">Sitios Modernos y Adaptables</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 mb-3">
+                    <div class="card shadow h-100">
+                        <div class="card body">
+                            <h4>Sistemas Contables</h4>
+                            <p class="fs-5">Automatizacion de Procesos Financieros.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 mb-3">
+                    <div class="card shadow h-100">
+                        <div class="card body">
+                            <h4>Asesoramiento</h4>
+                            <p class="fs-5">Soporte Tecnico y Contable.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </section>
+
+        <!--pie de pagina-->
+        <footer class="text-center fw-bold text-white mt-auto bg-dark">
+            <small>
+                @2025 GrupoJAMCRY - Todos los derechos Reservados.
+            </small>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>    
 </html>
